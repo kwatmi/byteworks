@@ -107,8 +107,6 @@ body  {
 .byteworks-header-caption{
 	
 font-family: Graphik;
-font-style: normal;
-font-weight: normal;
 font-size: 36px;
 }
 
@@ -126,8 +124,6 @@ font-size: 36px;
 	background: #EE5149;
 	border-radius: 8px;
 	border: #EE5149 0px;
-	font-family: Graphik;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
 	color: #fff;
@@ -152,4 +148,24 @@ font-size: 36px;
 .about-text p {
 	font-size: 16px;
 line-height: 230%;
+}
+
+
+.card-title-text{
+	font-family: Graphik;
+
+font-weight: 600;
+font-size: 14px;
+}
+.caption-text {
+
+
+font-size: 14px;
+line-height: 150%;
+}
+
+.card-size{
+
+	border-radius: 15px;
+	
 }
