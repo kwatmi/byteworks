@@ -1,7 +1,9 @@
 body  {
     height: 100%;
-    font-family: Graphik;
-	color: #fff;
+	font-family: Graphik;
+	font-weight: normal;
+	font-style: normal;
+	color: #000;
 	background: #FAF8F8;
 
 }
@@ -13,7 +15,7 @@ body  {
     height: 25px;
 }
 
-/* test */
+/* menu */
 .nav-style * {
 	box-sizing: border-box;
 	transition: all .35s ease;
@@ -76,7 +78,9 @@ body  {
 
 	color: #006E99 !important;
   }
-/* end */
+/* menu end */
+
+/* header or hero section */
 
 .header {
 
@@ -127,4 +131,25 @@ font-size: 36px;
 	font-weight: 500;
 	font-size: 18px;
 	color: #fff;
+}
+
+/* header or hero section end */
+
+/* about section */
+.about-us{
+	
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 53px;
+	color: #000;
+}
+.history{
+	font-size: 36px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+
+.about-text p {
+	font-size: 16px;
+line-height: 230%;
 }
