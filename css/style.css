@@ -4,10 +4,15 @@ body  {
 	font-weight: normal;
 	font-style: normal;
 	color: #000;
-	background: #FAF8F8;
+	 background: #FAF8F8; 
+	
 
 }
 
+.black{
+
+	border-bottom: 2px solid #006E99;
+}
 
 .logo {
 
@@ -85,13 +90,14 @@ body  {
 .header {
 
 	background-image: linear-gradient(180deg, rgba(0, 110, 153, 0.77) 0%, rgba(0, 110, 153, 0.8) 100%), url("../images/heroiamge.jpg")  ;
-	min-height: 100%;
-	 background-position: center;
+	
+	background-position: center center;
 	background-repeat: no-repeat;
 	/*min-width: 1024px;*/
 	width: 100%;
 	height:100%;
-	 background-size: cover;
+	 background-size:cover;
+	 background-attachment: fixed;
  	/*top: 0;
   	left: 0;*/
 }
@@ -106,21 +112,21 @@ body  {
 
 .byteworks-header-caption{
 	
-font-family: Graphik;
+
 font-size: 36px;
 }
 
 .byteworks-header-company-caption{
 	
-	font-family: Graphik;
+	
 	font-style: bold;
 	font-weight: bold;
 	font-size: 40px;
 	}
 
 .byteworks-header-button{
-	width: 180px;
-	height: 60px;
+	width: 150px;
+	height: 50px;
 	background: #EE5149;
 	border-radius: 8px;
 	border: #EE5149 0px;
@@ -132,6 +138,11 @@ font-size: 36px;
 /* header or hero section end */
 
 /* about section */
+.section-about{
+	padding-top: 130px;
+    padding-bottom: 130px;
+    /* background-color: #EDF5F8; */
+}
 .about-us{
 	
 	font-weight: 600;
@@ -139,15 +150,19 @@ font-size: 36px;
 	line-height: 53px;
 	color: #000;
 }
-.about-subhead{
+.subhead{
 	font-size: 36px;
-	color: rgba(0, 0, 0, 0.651);
+	color: rgba(0, 0, 0, 0.5);
 }
 
 
 .about-text p {
 	font-size: 16px;
 line-height: 230%;
+}
+
+.section-reimagine{
+	padding-bottom:130px ;
 }
 
 
@@ -167,12 +182,14 @@ line-height: 150%;
 .card-size{
 
 	border-radius: 15px;
+	border: 0px;
 	
 }
 
 .card-size.one{
 
 	background: #006E99;
+	transition: all .86s ease;
 	
 }
 
@@ -180,16 +197,120 @@ line-height: 150%;
 .card-size.two{
 
 	background: #04334D;
+	transition: all .86s ease;
 	
 }
 .card-size.three{
 
 	background: #174B89;
+	transition: all .86s ease;
 	
 }
 
 .card-size.four{
 
 	background: #2F80ED;
+	transition: all .86s ease;
 	
+}
+
+.card-size.one:hover{
+	color: #000 !important;
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+	background: #FAF8F8;
+	
+	transition: all .35s ease;
+	border: 0px;
+	
+}
+.card-size.two:hover{
+	color: #000 !important;
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+	background: #FAF8F8;
+	
+	transition: all .35s ease;
+	border: 0px;
+	
+}
+
+.card-size.three:hover{
+	color: #000 !important;
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+	background: #FAF8F8;
+	
+	transition: all .35s ease;
+	border: 0px;
+	
+}
+
+.card-size.four:hover{
+	color: #000 !important;
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+	background: #FAF8F8;
+	
+	transition: all .35s ease;
+	border: 0px;
+	
+}
+
+
+.working{
+	background-color: #EDF5F8;
+	
+}
+
+.testingit{
+	background-color: #EDF5F8;
+	transition: all .85s ease;
+
+}
+.test-section-one{
+
+	
+	transition: all .90s ease;}
+.test-section-one:hover{
+
+	
+	transition: all .90s ease;
+	background-image: url(../images/fes2.jpg);	
+
+}
+
+.test-section-one:hover .testingit{
+	color: #000 !important;
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+	background: #FAF8F8;
+	border-radius: 15px;
+	transition: all .35s ease;
+	border: 0px;
+	transform: scale(1.1);
+
+}
+
+.testingitt{
+	background-color: #EDF5F8;
+	transition: all .85s ease;
+
+}
+.test-section-two{
+
+	
+	transition: all .90s ease;}
+.test-section-two:hover{
+
+	
+	transition: all .90s ease;
+	background-image: url(../images/fes3.jpg);	
+
+}
+
+.test-section-two:hover .testingitt{
+	color: #000 !important;
+	box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05)!important;
+	background: #FAF8F8;
+	border-radius: 15px;
+	transition: all .35s ease;
+	border: 0px;
+	transform: scale(1.1);
+
 }
