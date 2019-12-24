@@ -14,7 +14,7 @@ body  {
 
 .header {
 
-	background-image: linear-gradient(90deg, rgba(75, 108, 255, 0.73) 21%, rgba(98, 239, 244, 0.71) 94%) , url("../images/heroiamge.jpg")  ;
+	background-image: linear-gradient(180deg, rgba(0, 110, 153, 0.77) 0%, rgba(0, 110, 153, 0.8) 100%), url("../images/heroiamge.jpg")  ;
 	min-height: 100%;
 	 background-position: center;
 	background-repeat: no-repeat;
@@ -24,4 +24,41 @@ body  {
 	 background-size: cover;
  	/*top: 0;
   	left: 0;*/
+}
+
+
+.header-caption{
+	position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.byteworks-header-caption{
+	
+font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+}
+
+.byteworks-header-company-caption{
+	
+	font-family: Graphik;
+	font-style: bold;
+	font-weight: bold;
+	font-size: 40px;
+	}
+
+.byteworks-header-button{
+	width: 180px;
+	height: 60px;
+	background: #EE5149;
+	border-radius: 8px;
+	border: #EE5149 0px;
+	font-family: Graphik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
 }
