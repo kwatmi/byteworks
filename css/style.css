@@ -169,3 +169,27 @@ line-height: 150%;
 	border-radius: 15px;
 	
 }
+
+.card-size.one{
+
+	background: #006E99;
+	
+}
+
+
+.card-size.two{
+
+	background: #04334D;
+	
+}
+.card-size.three{
+
+	background: #174B89;
+	
+}
+
+.card-size.four{
+
+	background: #2F80ED;
+	
+}
