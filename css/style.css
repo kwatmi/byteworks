@@ -9,9 +9,39 @@ body  {
 	font-style: normal;
 	color: #000;
 	 background: #FAF8F8; 
+	 font-size: 16px;
 	 
 	
 
+}
+
+@media (max-width: 576px) {
+	.about-text p {
+		font-size: 16px;
+		line-height: 230%;}
+	.card-title-text {
+		font-family: Graphik;
+		font-weight: 600;
+		font-size: 14px}
+		.caption-text {
+			font-size: 14px;
+			line-height: 100%;}
+	
+}
+
+@media (max-width: 768px) {
+	.about-text p {
+		font-size: 16px;
+		line-height: 230%;}
+	.card-title-text {
+		
+		font-family: Graphik;
+		font-weight: 600;
+		font-size: 14px}
+		.caption-text {
+			font-size: 14px;
+			line-height: 100%;}
+	
 }
 
 .black{
@@ -343,35 +373,6 @@ font-size: 20px;
 color: rgba(0, 0, 0, 0.8);
 }
 .footer-bg-color{
-	background-color: #006E99;;
+	background-color: #006E99;
 }
 
-
-@media (max-width: 576px) {
-	.about-text p {
-		font-size: 16px;
-		line-height: 230%;}
-	.card-title-text {
-		font-family: Graphik;
-		font-weight: 600;
-		font-size: 14px}
-		.caption-text {
-			font-size: 14px;
-			line-height: 100%;}
-	
-}
-
-@media (max-width: 768px) {
-	.about-text p {
-		font-size: 16px;
-		line-height: 230%;}
-	.card-title-text {
-		
-		font-family: Graphik;
-		font-weight: 600;
-		font-size: 14px}
-		.caption-text {
-			font-size: 14px;
-			line-height: 100%;}
-	
-}
