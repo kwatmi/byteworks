@@ -1,5 +1,6 @@
 body  {
-    height: 100%;
+	height: 100%;
+	width: 100%;
 	font-family: Graphik;
 	font-weight: normal;
 	font-style: normal;
@@ -328,4 +329,15 @@ line-height: 150%
 .products-sub{
 	font-weight: 600;
 font-size: 28px;
+}
+
+/* footer nev subhead */
+.footter-nav-sub{
+
+	font-weight: 600;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.8);
+}
+.footer-bg-color{
+	background-color: #006E99;;
 }
