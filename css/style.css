@@ -16,48 +16,15 @@ body  {
 }
 
 @media (max-width: 576px) {
-	.about-text p {
-		font-size: 16px;
-		line-height: 230%;}
-	.card-title-text {
-		font-family: 'Nunito', sans-serif;
-		font-weight: 600;
-		font-size: 14px}
-		.caption-text {
-			font-size: 14px;
-			line-height: 100%;}
+	
 	
 }
 
 @media (max-width: 768px) {
-	.about-text p {
-		font-size: 16px;
-		line-height: 230%;}
-	.card-title-text {
-		
-		font-family: 'Nunito', sans-serif;
-		font-weight: 600;
-		font-size: 14px}
-		.caption-text {
-			font-size: 14px;
-			line-height: 100%;}
+	
 	
 }
-@media (min-width: 992px) {
 
-	.about-text p {
-		font-size: 16px;
-		line-height: 230%;}
-	.card-title-text {
-		
-		font-family: 'Nunito', sans-serif;
-		font-weight: 600;
-		font-size: 14px}
-		.caption-text {
-			font-size: 14px;
-			line-height: 100%;}
-
-}
 
 .black{
 
