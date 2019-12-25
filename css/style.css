@@ -313,4 +313,19 @@ line-height: 150%;
 	border: 0px;
 	transform: scale(1.1);
 
+
+}
+
+
+/* products section */
+.products-bg{
+	background-image: url(../images/products.png);
+}
+.produsts-discription{
+	font-size: 14px;
+line-height: 150%
+}
+.products-sub{
+	font-weight: 600;
+font-size: 28px;
 }
