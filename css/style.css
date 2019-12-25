@@ -28,6 +28,13 @@ body  {
 		padding-top: 50px;
 		padding-bottom: 30px;
 		/* background-color: #EDF5F8; */
+		
+	}
+	.byteworks-header-caption{
+		font-size: 24px;
+	}
+	.byteworks-header-company-caption{
+		font-size: 36px;
 	}
 	
 	
@@ -45,6 +52,12 @@ body  {
 		padding-top: 50px;
 		padding-bottom: 30px;
 		/* background-color: #EDF5F8; */
+	}
+	.byteworks-header-caption{
+		font-size: 24px;
+	}
+	.byteworks-header-company-caption{
+		font-size: 36px;
 	}
 	
 	
