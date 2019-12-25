@@ -4,7 +4,7 @@ html {
 body  {
 	height: 100%;
 	width: 100%;
-	font-family: Graphik;
+	font-family: 'Nunito', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	color: #000;
@@ -20,7 +20,7 @@ body  {
 		font-size: 16px;
 		line-height: 230%;}
 	.card-title-text {
-		font-family: Graphik;
+		font-family: 'Nunito', sans-serif;
 		font-weight: 600;
 		font-size: 14px}
 		.caption-text {
@@ -35,13 +35,28 @@ body  {
 		line-height: 230%;}
 	.card-title-text {
 		
-		font-family: Graphik;
+		font-family: 'Nunito', sans-serif;
 		font-weight: 600;
 		font-size: 14px}
 		.caption-text {
 			font-size: 14px;
 			line-height: 100%;}
 	
+}
+@media (min-width: 992px) {
+
+	.about-text p {
+		font-size: 16px;
+		line-height: 230%;}
+	.card-title-text {
+		
+		font-family: 'Nunito', sans-serif;
+		font-weight: 600;
+		font-size: 14px}
+		.caption-text {
+			font-size: 14px;
+			line-height: 100%;}
+
 }
 
 .black{
@@ -202,7 +217,7 @@ line-height: 230%;
 
 
 .card-title-text{
-	font-family: Graphik;
+	font-family: 'Nunito', sans-serif;
 
 font-weight: 600;
 font-size: 14px;
