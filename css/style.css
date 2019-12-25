@@ -144,21 +144,24 @@ body  {
 	
 	background-position: center center;
 	background-repeat: no-repeat;
-	/*min-width: 1024px;*/
-	width: 100%;
-	height:100%;
-	 background-size:cover;
-	 background-attachment: fixed;
- 	/*top: 0;
-  	left: 0;*/
+	display: table;
+  width: 100%;
+  height: auto;
+  padding: 250px 0;
+  text-align: left;
+  color: white;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
 .header-caption{
-	position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+	/* position: absolute; */
+   vertical-align: middle;
+   display: table-cell;
 }
 
 .byteworks-header-caption{
