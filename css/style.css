@@ -16,12 +16,10 @@ body  {
 }
 
 @media (max-width: 576px) {
-	.header-caption{
-		padding: 100px 0;
-	}
+	
 	.products-bg{
 		background-color: #006E99;
-		background-image: hidden;
+		
 	}
 
 	.section-about {
@@ -41,12 +39,10 @@ body  {
 }
 
 @media (max-width: 768px) {
-	.header-caption{
-		padding: 100px 0;
-	}
+	
 	.products-bg{
 		background-color: #006E99;
-		background-image: hidden;
+	
 	}
 	.section-about {
 		padding-top: 50px;
