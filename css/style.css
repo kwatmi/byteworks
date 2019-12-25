@@ -16,11 +16,36 @@ body  {
 }
 
 @media (max-width: 576px) {
+	.header-caption{
+		padding: 100px 0;
+	}
+	.products-bg{
+		background-color: #006E99;
+		background-image: hidden;
+	}
+
+	.section-about {
+		padding-top: 50px;
+		padding-bottom: 30px;
+		/* background-color: #EDF5F8; */
+	}
 	
 	
 }
 
 @media (max-width: 768px) {
+	.header-caption{
+		padding: 100px 0;
+	}
+	.products-bg{
+		background-color: #006E99;
+		background-image: hidden;
+	}
+	.section-about {
+		padding-top: 50px;
+		padding-bottom: 30px;
+		/* background-color: #EDF5F8; */
+	}
 	
 	
 }
@@ -156,8 +181,8 @@ font-size: 36px;
 
 /* about section */
 .section-about{
-	padding-top: 130px;
-    padding-bottom: 130px;
+	padding-top: 100px;
+    padding-bottom: 70px;
     /* background-color: #EDF5F8; */
 }
 .about-us{
@@ -336,7 +361,8 @@ line-height: 150%;
 
 /* products section */
 .products-bg{
-	background-image: url(../images/products.png);
+	background-image: url(../images/products.png) ;
+	
 }
 .produsts-discription{
 	font-size: 14px;
