@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+  }
 body  {
 	height: 100%;
 	width: 100%;
@@ -6,6 +9,7 @@ body  {
 	font-style: normal;
 	color: #000;
 	 background: #FAF8F8; 
+	 
 	
 
 }
@@ -340,4 +344,27 @@ color: rgba(0, 0, 0, 0.8);
 }
 .footer-bg-color{
 	background-color: #006E99;;
+}
+
+
+@media (max-width: 576px) {
+	.card-title-text {
+		font-family: Graphik;
+		font-weight: 600;
+		font-size: 14px}
+		.caption-text {
+			font-size: 14px;
+			line-height: 100%;}
+	
+}
+
+@media (max-width: 768px) {
+	.card-title-text {
+		font-family: Graphik;
+		font-weight: 600;
+		font-size: 14px}
+		.caption-text {
+			font-size: 14px;
+			line-height: 100%;}
+	
 }
